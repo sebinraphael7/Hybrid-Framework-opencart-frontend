@@ -79,7 +79,6 @@ INDEX VERSION 1.134+R:\pavan opencart automation\.metadata\.plugins\org.eclipse.
 3520828453.index
 3100128464.index
 2673020123.index
-19618013.index
 3407998418.index
 1764092122.index
 3377606718.index

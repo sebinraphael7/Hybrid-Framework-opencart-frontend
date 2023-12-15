@@ -1,0 +1,13 @@
+package com.sdetfinal;
+
+import org.apache.commons.lang3.RandomStringUtils;
+import org.testng.annotations.Test;
+
+public class sdf {
+	@Test
+	public void men()
+	{
+		String gen = RandomStringUtils.random(10);
+		System.out.println(gen);
+	}
+}
