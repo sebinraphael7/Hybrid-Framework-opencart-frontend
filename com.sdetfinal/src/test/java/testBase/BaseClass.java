@@ -15,19 +15,19 @@ public class BaseClass {
 	public WebDriver driver;
 	
 	@BeforeClass
-	void setup() 
+	public void setup() 
 	{
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
-		driver.get("http://localhost/opencart/upload/");
+		driver.get("https://demo.opencart.com/");
 		driver.manage().window().maximize();
 	}
 
 	@AfterClass
-	void tearDown() 
+	public void tearDown() 
 	{
 		driver.quit();
 	}

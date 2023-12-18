@@ -1,12 +1,24 @@
 package com.sdetfinal;
 
-import org.testng.annotations.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class sdf {
-	@Test
-	public void men()
-	{
+//	@Test
+//	public void men()
+//	{
+//		System.out.println("sesesesese");
+//	WebDriverManager.chromedriver().setup();
+//	WebDriver driver =new ChromeDriver();
+//	driver.get("https://www.flipkart.com/");
+//	}
 	
-		System.out.println("sesesesese");
+	public static void main(String[] args) {
+		System.out.println("ssssss");
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver =new ChromeDriver();
+		driver.get("https://www.flipkart.com/");
 	}
 }

@@ -13,8 +13,7 @@ public class TC_001_AccountRegistrationTest extends BaseClass {
 @Test
 void test_account_Registration()
 {
-	try
-	{
+	
 	HomePage hp= new HomePage(driver);
 	hp.clickMyAccount();
 	hp.clickRegister();
@@ -28,11 +27,7 @@ void test_account_Registration()
 	regpage.clickContinue();
 	String confmsg = regpage.getConfirmationMsg();
 	Assert.assertEquals(confmsg,"Your Account Has Been Created!");
-	}
-	catch(Exception e)
-	{
-		Assert.fail();
-	}
+
 }
 
 }

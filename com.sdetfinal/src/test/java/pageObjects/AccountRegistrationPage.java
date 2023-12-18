@@ -23,7 +23,7 @@ public class AccountRegistrationPage extends BasePage
 	WebElement chkdPolicy;
 	@FindBy(xpath="//button[text()='Continue']")
 	WebElement btnContinue;
-	@FindBy(xpath="")
+	@FindBy(xpath="//h1[text()=\"Your Account Has Been Created!\"]")
 	WebElement msgConfirmation;
 	
 	public void setFirstName(String fname)
