@@ -3,6 +3,9 @@ package testBase;
 import java.time.Duration;
 
 import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger; //logging package
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
@@ -14,9 +17,13 @@ public class BaseClass {
 	
 	public WebDriver driver;
 	
+	public Logger logger; // for logging
+	
 	@BeforeClass
 	public void setup() 
 	{
+		logger= LogManager.getLogger(this.getClass());  //logging
+		
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 		

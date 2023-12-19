@@ -19,6 +19,8 @@ public class AccountRegistrationPage extends BasePage
 	WebElement txtEmail;
 	@FindBy(xpath="//input[@id='input-password']")
 	WebElement txtPassword;
+	@FindBy(xpath = "//label[text()='Yes']")
+	WebElement newsLetter;
 	@FindBy(xpath="//input[@name='agree']")
 	WebElement chkdPolicy;
 	@FindBy(xpath="//button[text()='Continue']")
@@ -49,6 +51,10 @@ public class AccountRegistrationPage extends BasePage
 	public void clickContinue()
 	{
 		btnContinue.click();
+	}
+	public void setnewsLetter()
+	{
+		newsLetter.click();
 	}
 	public String getConfirmationMsg()
 	{

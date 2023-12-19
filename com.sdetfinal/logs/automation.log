@@ -1,0 +1,5 @@
+01:18:11.608 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ***  Starting TC_001_AccountRegistrationTest *** 
+01:18:11.776 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on My account link
+01:18:12.276 [main] INFO  testCases.TC_001_AccountRegistrationTest - Clicked on register link
+01:18:12.278 [main] INFO  testCases.TC_001_AccountRegistrationTest - Providing customer data
+01:18:12.797 [main] INFO  testCases.TC_001_AccountRegistrationTest -  ***  Finished TC_001_AccountRegistrationTest *** 
