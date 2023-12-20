@@ -26,4 +26,5 @@
     <fullyQualifiedTypeName name="freemarker.log.Logger"/>
     <fullyQualifiedTypeName name="org.apache.logging.log4j.Logger"/>
     <fullyQualifiedTypeName name="org.apache.logging.log4j.LogManager"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
 </qualifiedTypeNameHistroy>

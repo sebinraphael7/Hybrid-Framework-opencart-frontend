@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-19T01:18:05 IST" name="Default suite" finished-at="2023-12-19T01:18:13 IST" duration-ms="7312">
+  <suite started-at="2023-12-19T23:59:14 IST" name="Default suite" finished-at="2023-12-19T23:59:22 IST" duration-ms="8132">
     <groups>
     </groups>
-    <test started-at="2023-12-19T01:18:05 IST" name="Default test" finished-at="2023-12-19T01:18:13 IST" duration-ms="7312">
+    <test started-at="2023-12-19T23:59:14 IST" name="Default test" finished-at="2023-12-19T23:59:22 IST" duration-ms="8132">
       <class name="testCases.TC_001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@12468a38]" started-at="2023-12-19T01:18:05 IST" name="setup" finished-at="2023-12-19T01:18:11 IST" duration-ms="5755" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@12468a38]" started-at="2023-12-19T23:59:14 IST" name="setup" finished-at="2023-12-19T23:59:20 IST" duration-ms="6098" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@12468a38]" started-at="2023-12-19T01:18:11 IST" name="test_account_Registration" finished-at="2023-12-19T01:18:12 IST" duration-ms="1205" status="PASS">
+        <test-method signature="test_account_Registration()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@12468a38]" started-at="2023-12-19T23:59:20 IST" name="test_account_Registration" finished-at="2023-12-19T23:59:21 IST" duration-ms="1601" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_account_Registration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@12468a38]" started-at="2023-12-19T01:18:12 IST" name="tearDown" finished-at="2023-12-19T01:18:13 IST" duration-ms="292" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_001_AccountRegistrationTest@12468a38]" started-at="2023-12-19T23:59:21 IST" name="tearDown" finished-at="2023-12-19T23:59:22 IST" duration-ms="358" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
